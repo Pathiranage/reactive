@@ -13,7 +13,6 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>reactive-server</name>
     <description>Demo project for web flux and mongo db</description>
-
     <properties>
         <java.version>1.8</java.version>
     </properties>
@@ -28,11 +27,11 @@
             <artifactId>spring-boot-starter-webflux</artifactId>
         </dependency>
 
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-configuration-processor</artifactId>
-            <optional>true</optional>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.springframework.boot</groupId>-->
+<!--            <artifactId>spring-boot-configuration-processor</artifactId>-->
+<!--            <optional>true</optional>-->
+<!--        </dependency>-->
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
